@@ -1,0 +1,17 @@
+{
+    "name": "study_graphql_rust",
+    "dockerComposeFile": ["./docker-compose.yml"],
+    "service": "rust",
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "editor.formatOnSave": true,
+        "rust-analyzer.checkOnSave.command": "clippy"
+    },
+    "extensions": [
+        "editorconfig.editorconfig",
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb",
+        "bungcip.better-toml",
+        "serayuzgur.crates"
+    ]
+}
